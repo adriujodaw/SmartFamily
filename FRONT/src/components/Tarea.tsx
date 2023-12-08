@@ -149,7 +149,6 @@ const Tarea = () => {
                     </div>
                     
                   </div>
-                  <button className='button completarTarea' onClick={() => completarTarea(tarea.idtareas)}>Marcar completada</button>
                 </SwiperSlide>
               ))}
             </Swiper>
