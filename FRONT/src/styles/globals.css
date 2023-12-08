@@ -1,0 +1,70 @@
+@import url('./colores.css');
+html, body, main {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primario);
+    font-family: 'Roboto', sans-serif;
+    
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 11em;
+    width: 100%;
+    background: linear-gradient(var(--color-primario), transparent);
+    z-index: 100;
+}
+
+main{
+    margin-top: 11em;
+    padding-bottom: 2em;
+
+
+}
+
+.loading{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+::-webkit-scrollbar {
+    -webkit-appearance: none; 
+}
+
+::-webkit-scrollbar:vertical {
+    width:10px;
+    height: 80px;
+}
+
+::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+    border: 2px solid var(--color-cuarto);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.alert {
+    background-color: #dc3545;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-top:0.5em;
+}
+
+

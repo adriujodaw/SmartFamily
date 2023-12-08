@@ -1,0 +1,63 @@
+Vídeo( https://www.youtube.com/live/dkic3MU3858?feature=shared   /   https://www.youtube.com/watch?v=lV7mxivGX_I&list=LL&index=1&t=56s )
+
+1. Iniciar proyecto node
+    Comando: npm init -y
+
+2. Instalar:
+    -> Express: Poder crear un servidor web wn MYSQL
+    -> Promise-MYSQL: Crear una conexión asíncrona con una BBDD
+    -> Dotenv: Manejar variables de entorno
+    -> Bcryptjs: Cifrado de datos
+    -> Cors: Comunicar con otros servidores
+    -> JWT(jsonwebtoken): Manejo de tokens
+    -> Helmet: Aplica con reglas de seguridad
+    -> UUID: Crear id
+
+
+    Comando:  npm i dotenv express promise-mysql bcryptjs cors jsonwebtoken helmet uuid
+
+3. Instalar en modo desarrollo:
+    -> @babel/cli:                   --|
+    -> @babel/node:                    |-> Babel sirve para convertir codigo de JS moderno a código 2015+ para que pueda ser compilado por todos los navegadores
+    -> @babel/core:                    |
+    -> @babel/present-env:           --|
+    -> Morgan: Ver peticiones al servidor por consola
+    -> Nodemon: Poder ver todos los cambios actualizados en directo
+
+    Comando:  npm i @babel/cli @babel/core @babel/node @babel/preset-env morgan nodemon -D
+
+
+4. Crear en el proyecto un archivo llamado '.babelrc' con el siguiente contenido:
+
+
+        {
+            //  Configura BABEL con preset-env
+            "presets":["@babel/preset-env"]
+        }
+
+
+5. Crear un archivo llamado '.env' con las variables de entornoque usaremos. Ejemplo:
+
+        HOST=localhost
+        DATABASE=smartfamily
+        USER=api
+        PASSWORD=Apiprueba2023
+        
+
+
+6. Crear carpeta build con los archivos de babel
+    Comando: npm run build
+
+
+7.  Arrancar servidor en modo desarrollo
+    Comando: npm run dev
+
+
+8. Arrancar servidor:
+    Comando: npm start
+
+
+
+
+
+

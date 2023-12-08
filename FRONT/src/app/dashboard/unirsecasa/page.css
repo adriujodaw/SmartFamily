@@ -1,0 +1,49 @@
+.contenedorRegister{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 60%;
+}
+
+.contenedorRegister > h1 {
+    color: var(--color-terciario);
+}
+  
+.contenedorRegister  button {
+    width: 30%;
+}
+.contenedorRegister >form >  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-secundario);
+    border-radius: 5px;
+}
+.contenedorRegister > input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-secundario);
+    border-radius: 5px;
+    background-color: white; /* Establece el color de fondo aquí */
+}
+
+.contenedorRegister * {
+    display: block;
+}
+.contenedorRegister form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-secundario);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contenedorDiv {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}

@@ -1,0 +1,78 @@
+.cardHome {
+    background-color: white;
+    color: var(--color-primario);
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+}
+
+.cardSecundaria {
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 4px 4px 20px var(--color-secundario);
+    color: var(--color-primario);
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+}
+
+.sinCasa {
+    text-align: center;
+}
+.home>hr {
+    border-color: var(--color-secundario);
+    margin-bottom: 2em;
+    width: 80%;
+}
+
+.home>h2 {
+    font-size: 2.5em;
+}
+
+.containerCasas {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+.containerCasas > div{
+    background-color: var(--color-primario);
+    color: white;
+    width: 37%;
+    border-radius: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    position: relative;
+    min-height: 200px; /* Establece una altura mínima para el div */
+}
+
+.containerCasas>div > .button {
+    width: 80%;
+    border-radius: 0.7em;
+    position:absolute;
+    bottom: 1em;
+    left: 10%;
+}
+
+.flexHome{
+    display: flex;
+    margin-top: -1.5em;
+
+}
+
+.flexHome>label{
+    margin-left: 2em;
+}
+.der {
+    flex-direction: row-reverse;
+
+}
+.der > label{
+    margin-right: 2em;
+    margin-left: 0;
+}

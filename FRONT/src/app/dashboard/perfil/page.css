@@ -1,0 +1,55 @@
+
+.cardPerfil{
+    background-color: white;
+    color:  var(--color-primario);
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+}
+.card2Perfil {
+    background-color: var(--color-primario)!important;
+    color: white!important;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+    text-align: center;
+
+}
+.card3Perfil {
+    background-color: var(--color-secundario);
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+    text-align: center;
+}
+.datosPerfil{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cerrarSesionPerfil {
+    width: 30em;
+    margin: 2em;
+}
+.containerPerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+}
+.iconoPerfil {
+    margin: 1em;
+}
